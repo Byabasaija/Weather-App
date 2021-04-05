@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">  
     <title>Weather</title>
 </head>
 <body>
+    <section class="top-banner">
+        <div class="container">
+          <h1 class="heading">Simple Weather App</h1>
+          <form>
+            <input type="text" placeholder="Search for a city" autofocus>
+            <button type="submit">SUBMIT</button>
+            <span class="msg"></span>
+          </form>
+        </div>
+      </section>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities">
+            <li class="city">
+                <h2 class="city-name" data-name="...">
+                  <span>...</span>
+                  <sup>...</sup>
+                </h2>
+                <span class="city-temp">...<sup>°C</sup></span>
+                <figure>
+                  <img class="city-icon" src="..." alt="...">
+                  <figcaption>...</figcaption>
+                </figure>
+              </li>
+          </ul>
+        </div>
+    </section>
     
     <script src="main.js"></script>
 </body>

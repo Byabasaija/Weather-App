@@ -1,0 +1,1 @@
+document.querySelector(".top-banner form").addEventListener("submit",(e=>{e.preventDefault()}));
