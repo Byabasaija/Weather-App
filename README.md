@@ -9,7 +9,7 @@ When the user enters a place to search, the app displays the searched place valu
 
 ## Live Demo
 
-[See Live]()
+[See Live](https://awesome-ardinghelli-eac011.netlify.app/dist/index.html)
 
 ## Getting started
 

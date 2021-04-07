@@ -5,7 +5,6 @@ const tempC = document.querySelector('.c');
 const tempF = document.querySelector('.f');
 const desc = document.querySelector('.desc');
 
-
 const api = 'a09b4085ef795cb894f486def4422bec';
 
 window.addEventListener('load', () => {
