@@ -15,10 +15,15 @@
   },
   "devDependencies": {
     "webpack": "^5.30.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "test": "npm start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open",
+    "mode": "development"
   },
   "repository": {
     "type": "git",
