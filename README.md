@@ -9,7 +9,7 @@ When the user enters a place to search, the app displays the searched place valu
 
 ## Live Demo
 
-[See Live](http://pascalbyabasaija.me/Weather-App/dist/index.html)
+[See Live](https://byabasaija.github.io/Weather-App/)
 
 ## Getting started
 
