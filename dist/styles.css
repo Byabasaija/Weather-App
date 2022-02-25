@@ -9,6 +9,11 @@
   body {
     font-family: 'Karla', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    font: 1rem/1.3 "Roboto", sans-serif;
+    background: var(--bg_main);
+    color: var(--text_light);
+    max-width: 50%; 
+    margin: auto;
   }
 
   :root {
@@ -55,12 +60,7 @@
     list-style: none;
   }
    
-  body {
-    font: 1rem/1.3 "Roboto", sans-serif;
-    background: var(--bg_main);
-    color: var(--text_light);
-    padding: 50px;
-  }
+ 
 
  
 .top-banner {
